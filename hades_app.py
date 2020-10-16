@@ -10,7 +10,7 @@ import sys
 import hades
 
 
-# In[ ]:
+# In[2]:
 
 
 form_class = uic.loadUiType("hades.ui")[0]
@@ -49,6 +49,19 @@ class WindowClass(QMainWindow, form_class) :
         SelectedLists = hades.getSelected(self.hds)
         for item in SelectedLists:
             self.setSelectedActive(self.duoIndex[item])
+        for idx, item in enumerate(self.unSelected):
+            desc = ""
+            gods = list(self.hds[idx]['owner'].keys())
+            for i in range(2):
+                desc += gods[i]
+                abil = ""
+                for cd in self.hds[idx]['condition'][0]:
+                    abil += ' ' + cd
+                desc += abil + '\n'
+            print(desc)
+            item.setToolTip(self.hds[idx]['description'] + '\n' + desc)
+        for idx, item in enumerate(self.Selected):
+            item.setToolTip(self.hds[idx]['description'])
     def onActivatedAttackButton(self, text):
         hades.selectItem(self.hds,text,'공격')
         self.refresh()
