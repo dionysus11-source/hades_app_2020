@@ -58,7 +58,6 @@ class WindowClass(QMainWindow, form_class) :
                 for cd in self.hds[idx]['condition'][0]:
                     abil += ' ' + cd
                 desc += abil + '\n'
-            print(desc)
             item.setToolTip(self.hds[idx]['description'] + '\n' + desc)
         for idx, item in enumerate(self.Selected):
             item.setToolTip(self.hds[idx]['description'])
@@ -96,7 +95,6 @@ class WindowClass(QMainWindow, form_class) :
         self.Magic.setCurrentIndex(0)
         self.SpecialMagic.setCurrentIndex(0)
     def onResetButton(self, text):  
-        print("click reset button")
         self.hds = hades.resetHades()
         self.refresh()
         self.resetComboBox()

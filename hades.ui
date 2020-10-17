@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>700</y>
+      <y>770</y>
       <width>101</width>
       <height>26</height>
      </rect>
@@ -31,7 +31,7 @@
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>590</y>
+      <y>660</y>
       <width>97</width>
       <height>24</height>
      </rect>
@@ -86,7 +86,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>590</y>
+      <y>660</y>
       <width>77</width>
       <height>18</height>
      </rect>
@@ -99,7 +99,7 @@
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>590</y>
+      <y>660</y>
       <width>77</width>
       <height>18</height>
      </rect>
@@ -112,7 +112,7 @@
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>590</y>
+      <y>660</y>
       <width>97</width>
       <height>24</height>
      </rect>
@@ -167,7 +167,7 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>590</y>
+      <y>660</y>
       <width>77</width>
       <height>18</height>
      </rect>
@@ -180,7 +180,7 @@
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>590</y>
+      <y>660</y>
       <width>97</width>
       <height>24</height>
      </rect>
@@ -235,7 +235,7 @@
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>590</y>
+      <y>660</y>
       <width>77</width>
       <height>18</height>
      </rect>
@@ -248,7 +248,7 @@
     <property name="geometry">
      <rect>
       <x>580</x>
-      <y>590</y>
+      <y>660</y>
       <width>97</width>
       <height>24</height>
      </rect>
@@ -303,7 +303,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>630</y>
+      <y>700</y>
       <width>77</width>
       <height>18</height>
      </rect>
@@ -316,7 +316,7 @@
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>630</y>
+      <y>700</y>
       <width>97</width>
       <height>24</height>
      </rect>
@@ -351,7 +351,7 @@
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>630</y>
+      <y>700</y>
       <width>77</width>
       <height>18</height>
      </rect>
@@ -364,7 +364,7 @@
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>630</y>
+      <y>700</y>
       <width>97</width>
       <height>24</height>
      </rect>
@@ -418,11 +418,19 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>270</x>
       <y>10</y>
-      <width>291</width>
-      <height>18</height>
+      <width>471</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Malgun Gothic</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>선택에 따라서 가능성이 있는 듀오</string>
@@ -432,7 +440,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>30</y>
+      <y>50</y>
       <width>741</width>
       <height>241</height>
      </rect>
@@ -641,6 +649,9 @@
        <property name="mouseTracking">
         <bool>true</bool>
        </property>
+       <property name="toolTip">
+        <string extracomment="적을 밀치면 적에게 벼락이 떨어집니다."/>
+       </property>
        <property name="text">
         <string>바다 폭풍</string>
        </property>
@@ -711,11 +722,19 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>280</y>
-      <width>291</width>
-      <height>18</height>
+      <x>270</x>
+      <y>320</y>
+      <width>331</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Malgun Gothic</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>이미 선택되어 나타날 듀오</string>
@@ -725,7 +744,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>310</y>
+      <y>370</y>
       <width>741</width>
       <height>241</height>
      </rect>
@@ -1008,7 +1027,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>18</height>
     </rect>
    </property>
   </widget>
