@@ -249,9 +249,7 @@ def selectItem(hades, god, ability):
     for duo in hades:
         for idx, val in enumerate(duo['owner']):
             if (val == god):
-                print(duo['name'])
                 for cond in duo['condition'][idx]:
-                    print(cond, ability)
                     if (ability == cond):
                          duo['is_selected'][idx] = True
         if ('마법' in ability):
