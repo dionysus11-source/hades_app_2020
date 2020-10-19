@@ -122,7 +122,7 @@ def makeHadesData():
 
     athena_artemis = {}
     athena_artemis['name'] = '치명적인 반격'
-    athena_artemis['condition'] =[['공격', '특공'], ['공격', '특공', '마법', '지원']]
+    athena_artemis['condition'] =[['공격', '특공'], ['공격', '특공', '탄환마법2', '섬광마법2', '지원']]
     athena_artemis['owner'] = {'아테나' : 0, '아르테미스' : 1}
     athena_artemis['description'] = '반사 후 잠시 동안 +20% 확률로 치명타를 가합니다.'
     athena_artemis['is_selected'] = [False, False]
