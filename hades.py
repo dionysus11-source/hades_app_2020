@@ -292,7 +292,6 @@ def getAll(hades):
 def getSelected(hades):
     result = []
     for duo in hades:
-        #print(duo['name'], " " , duo['is_selected'][0], duo['is_selected'][1])
         if (duo['is_selected'][0] == True and duo['is_selected'][1] == True ):
             result.append(duo['name'])
     return result
