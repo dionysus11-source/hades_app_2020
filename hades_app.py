@@ -72,16 +72,12 @@ class WindowClass(QMainWindow, form_class) :
         self.refresh()
     def onActivatedSpecialMagicButton(self, text):
         if (text == '전기마법' or text == '천둥마법' or text == '피해강화'):
-            print("제우스 is called")
             owner = '제우스'
         elif(text == '탄환마법' or text == '섬광마법'):
-            print("아테나 is called")
             owner = '아테나'
         elif (text == '마법광선' or text == '마법섬광'):
-            print("데메테르 is called")
             owner = '데메테르'
         elif (text == '탄환마법2' or text == '섬광마법2'):
-            print("아르테미스 is called")
             owner = '아르테미스'
         else:
             owner = ''
