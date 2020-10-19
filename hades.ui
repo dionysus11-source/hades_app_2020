@@ -406,6 +406,11 @@
     </item>
     <item>
      <property name="text">
+      <string>섬광마법</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
       <string>[데메테르]</string>
      </property>
     </item>
@@ -414,13 +419,33 @@
       <string>마법광선</string>
      </property>
     </item>
+    <item>
+     <property name="text">
+      <string>마법섬광</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>[아르테미스]</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>탄환마법2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>섬광마법2</string>
+     </property>
+    </item>
    </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>260</x>
       <y>10</y>
-      <width>471</width>
+      <width>281</width>
       <height>31</height>
      </rect>
     </property>
@@ -1027,7 +1052,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>18</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
